@@ -86,6 +86,9 @@
     margin-left: 1263px;
     text-decoration: none;
  }
+ .contacts-link-phone:hover {
+    color: #2196F3;
+ }
 /* Main information*/
 .main-section {
     position: absolute;
@@ -207,6 +210,12 @@
 .points {
     list-style-type: none;
 }
+
+/*team*/
+.team {
+    list-style-type: none;
+}
+
 /*footer*/
 .footer {
     background: #2F303A;
