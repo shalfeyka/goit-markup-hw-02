@@ -12,11 +12,11 @@
     background-color: var(--primary-color)
 }
 .logo {
-    color: black;
+    color: #2196F3;
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
-    margin-left: 12px;
+    margin-left: 240px;
     margin-top: 24px;
     line-height: 2;
     text-decoration: none;
@@ -24,13 +24,12 @@
     margin-bottom: 10px;
 }
 .logo-half {
-    color: #2196F3;
+    color: #212121;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     height: 31px;
-    margin-left: 215px;
     margin-top: 24px;
     line-height: 2;
     text-decoration: none;
@@ -59,8 +58,34 @@
     text-decoration: none;
 }
 .contacts-link {
-
+    list-style-type: none;
+    display: inline;
 }
+.contacts-link-mail {
+    color: #757575;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-left: 1263px;
+    text-decoration: none;
+}
+.contacts-link-mail:hover {
+    color: #2196F3;
+ }
+ .contacts-link-phone {
+    color: #757575;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-left: 1263px;
+    text-decoration: none;
+ }
 /* Main information*/
 .main-section {
     position: absolute;
@@ -181,4 +206,38 @@
 }
 .points {
     list-style-type: none;
+}
+/*footer*/
+.footer {
+    background: #2F303A;
+}
+.list-items-footer {
+    list-style-type: none;
+}
+.location {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 215px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.location:hover {
+    color: #2196F3;
+}
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 215px;
+    text-decoration: none;
+}
+.contacts-footer:hover {
+    color: #2196F3; 
+}
+.logo-half-footer {
+    color: white;
 }
