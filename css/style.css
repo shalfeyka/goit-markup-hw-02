@@ -103,7 +103,9 @@ body {
 }
 
 /* Image information*/
-
+.work-list {
+    list-style-type: none;
+}
 .work-title {
     color: var(--color-text);
     font-weight: 700;
